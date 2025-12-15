@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8cd3c18bd8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cake Xpress</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="images/cake xpress logo1.png" alt="Logo"></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#cakes">Cakes</a>
+            <a href="#pastry">Pastries</a>
+            <a href="#new-arrivals">New Arrivals</a>
+            <a href="#about">About</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="cart-icon"><i class="fa-solid fa-basket-shopping"></i></div>
+            <div class="menu-icon"><i class="fa-solid fa-list"></i></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" name="search" id="search-box" placeholder="search here...">
+            <label for="search-box"><i class="fa-solid fa-magnifying-glass"></i></label>
+        </div>
+        <!-- Cart Container -->
+        <div class="cart-items-container">
+            <div style="text-align: center; padding: 2rem; color: #666;">
+                <p style="font-size: 1.6rem;">Your cart is empty</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="hero">
+            <h3>Indulge in sweet delights</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <a class="btn" href="#cakes">Get your's now</a>
+        </div>
+    </section>
+    <!-- cake section -->
+    <section class="cakes" id="cakes">
+        <h3 class="title">Our <span>Cakes</span></h3>
+        <div class="wrapper">
+            <!-- item 1 -->
+            <div class="cake-card">
+                <img src="images/chocolate cake.jpeg" alt="Chocolate Truffle Cake">
+                <h3>Chocolate Truffle Cake</h3>
+                <div class="price">₹450</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <!-- item 2 -->
+            <div class="cake-card">
+                <img src="images/brownie cake.jpeg" alt="Brownie Cake">
+                <h3>Brownie Cake</h3>
+                <div class="price">₹450</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <!-- item 3 -->
+            <div class="cake-card">
+                <img src="images/swiss chocolate cake.jpeg" alt="Swiss Chocolate Cake">
+                <h3>Swiss Chocolate Cake</h3>
+                <div class="price">₹450</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <!-- item 4 -->
+            <div class="cake-card">
+                <img src="images/pineapple cake.jpeg" alt="Pineapple Cake">
+                <h3>Pineapple Cake</h3>
+                <div class="price">₹450</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <!-- item 5 -->
+            <div class="cake-card">
+                <img src="images/blueberry cake.jpeg" alt="Blueberry Cake">
+                <h3>Blueberry Cake</h3>
+                <div class="price">₹450</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <!-- item 6 -->
+            <div class="cake-card">
+                <img src="images/butterscotch cake.jpeg" alt="Butterscotch Cake">
+                <h3>Butterscotch Cake</h3>
+                <div class="price">₹450</div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+    <!-- pastry section -->
+    <section class="pastry" id="pastry">
+        <h1 class="title">Our <span>Pastry</span></h1>
+        <div class="wrapper">
+            <!-- pastry 1 -->
+            <div class="pastry-card">
+                <div class="icons">
+                    <a href="#" class="fa-solid fa-basket-shopping"></a>
+                    <a href="#" class="fa-solid fa-heart"></a>
+                    <a href="#" class="fa-solid fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="images/chocochip pastry.jpeg" alt="Chocochip Pastry">
+                </div>
+                <div class="content">
+                    <h3>Chocochip Pastry</h3>
+                    <div class="price">₹80</div>
+                </div>
+            </div>
+
+            <!-- pastry 2 -->
+            <div class="pastry-card">
+                <div class="icons">
+                    <a href="#" class="fa-solid fa-basket-shopping"></a>
+                    <a href="#" class="fa-solid fa-heart"></a>
+                    <a href="#" class="fa-solid fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="images/pineapple pastry.jpeg" alt="Pineapple Pastry">
+                </div>
+                <div class="content">
+                    <h3>Pineapple Pastry</h3>
+                    <div class="price">₹60</div>
+                </div>
+            </div>
+
+            <!-- pastry 3 -->
+            <div class="pastry-card">
+                <div class="icons">
+                    <a href="#" class="fa-solid fa-basket-shopping"></a>
+                    <a href="#" class="fa-solid fa-heart"></a>
+                    <a href="#" class="fa-solid fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="images/cheese.jpeg" alt="Cheese Pastry">
+                </div>
+                <div class="content">
+                    <h3>Cheese Pastry</h3>
+                    <div class="price">₹80</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- new arrival -->
+    <section class="new-arrivals" id="new-arrivals">
+        <h1 class="title">New <span>Arrivals</span></h1>
+        <div class="wrapper">
+            <!-- new arrival 1 -->
+            <div class="card">
+                <div class="img">
+                    <img src="images/macroons.jpeg" alt="Macroon">
+                </div>
+                <div class="content">
+                    <a href="#">Macroon</a>
+                    <p>Colorful almond cookies with creamy filling</p>
+                    <a href="#" class="btn">explore</a>
+                </div>
+            </div>
+
+            <!-- new arrival 2 -->
+            <div class="card">
+                <div class="img">
+                    <img src="images/jarcake.jpeg" alt="Jar Cake">
+                </div>
+                <div class="content">
+                    <a href="#">Jar Cake</a>
+                    <p>Perfectly layered cake in jars</p>
+                    <a href="#" class="btn">explore</a>
+                </div>
+            </div>
+
+            <!-- new arrival 3 -->
+            <div class="card">
+                <div class="img">
+                    <img src="images/bomboloni.jpeg" alt="Bomboloni">
+                </div>
+                <div class="content">
+                    <a href="#">Bomboloni</a>
+                    <p>Pillow-soft donuts with sweet centers</p>
+                    <a href="#" class="btn">explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+        <h1 class="title">About <span>US</span></h1>
+        <div class="container">
+            <div class="img">
+                <img src="images/about.jpg" alt="About Us">
+            </div>
+            <div class="content">
+                <h3>What makes us different</h3>
+                <p>
+                    At Cake Xpress, we believe every celebration deserves a perfect slice of happiness. We specialize in freshly baked cakes, pastries, and desserts made with premium ingredients and a whole lot of love.
+                </p>
+                <p>
+                    From classic flavors to modern creations, our cakes are crafted to delight your taste buds and make every moment memorable. Whether it's a birthday, anniversary, or a simple craving, Cake Xpress delivers sweetness right when you need it.
+                </p>
+                <p>
+                    With quick service, consistent quality, and irresistible flavors, we're here to turn your special moments into delicious memories – one cake at a time.
+                </p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- review section -->
+    <section class="review" id="review">
+        <h1 class="title">customer's <span>review</span></h1>
+        <div class="wrapper">
+            <!-- review 1 -->
+            <div class="review-card">
+                <img src="images/quote.png" alt="Quote">
+                <p>Absolutely loved the cake from Cake Xpress! Fresh, soft, and perfectly sweet. Delivery was quick and the presentation was beautiful. Highly recommended!</p>
+                <img class="customer" src="images/user.png" alt="Customer">
+                <h3>John Doe</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+
+            <!-- review 2 -->
+            <div class="review-card">
+                <img src="images/quote.png" alt="Quote">
+                <p>Cake Xpress impressed us with their quality and taste. The cake was incredibly fresh, soft, and perfectly balanced in sweetness. Every layer felt rich and flavorful.</p>
+                <img class="customer" src="images/user.png" alt="Customer">
+                <h3>John Doe</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+
+            <!-- review 3 -->
+            <div class="review-card">
+                <img src="images/quote.png" alt="Quote">
+                <p>Cake Xpress exceeded my expectations. The cake was moist, rich in flavor, and not overly sweet. Perfect for celebrations and special occasions. Will definitely order again!</p>
+                <img class="customer" src="images/user.png" alt="Customer">
+                <h3>John Doe</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h1 class="title"><span>Contact</span> Us</h1>
+        <div class="content">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.2031557274986!2d72.9947121!3d19.144506700000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bf675fc9e9a9%3A0xe98eea1104738fc3!2sCake%20Xpress!5e1!3m2!1sen!2sin!4v1765693506956!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form action="">
+                <h3>Get in touch</h3>
+                <div class="input-box">
+                    <span class="fa-solid fa-user"></span>
+                    <input type="text" name="name" placeholder="name">
+                </div>
+                <div class="input-box">
+                    <span class="fa-solid fa-envelope"></span>
+                    <input type="email" name="email" placeholder="email">
+                </div>
+                <div class="input-box">
+                    <span class="fa-solid fa-phone"></span>
+                    <input type="tel" name="phone" placeholder="phone">
+                </div>
+                <a href="#" class="btn">Contact Now</a>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="social-media">
+            <a href="#" class="fa-brands fa-facebook"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-linkedin"></a>
+        </div>
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#cakes">Cakes</a>
+            <a href="#pastry">Pastries</a>
+            <a href="#new-arrivals">New Arrivals</a>
+            <a href="#about">About</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="credits">
+            Created by <span>Cake Xpress Team</span> | all rights reserved.
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
